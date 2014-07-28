@@ -4,6 +4,15 @@ Welcome to the RubySteps project. Here you will find all the lessons that you
 have access to. You can run each lesson on a vagrant virtual machine which contains all
 the software necessary to run the lesson.
 
+## For the hacker types
+
+RubySteps provides a pre-configured virtual machine so that you can run the
+examples as easily as possible. However, you may wish to use your existing
+configuration to run the RubySteps lessons, and that's fine. Each lesson will
+include its configuration as well as notes on any third-party dependencies. If
+you have any questions with running the lessons on your setup, please email
+pat@patmaddox.com
+
 ## Easy as 1, 2, 3(-ish)
 
 The basic steps to setting up the RubySteps environment are to install vagrant
