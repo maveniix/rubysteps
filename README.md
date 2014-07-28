@@ -23,6 +23,9 @@ After launching the vagrant environment, you can ssh into it with `vagrant
 ssh`. Once inside, run `ruby hello.rb` to verify that you have a working
 environment. You should see the text "Hello RubySteps".
 
+If you get any errors when running vagrant up, make sure that you have the
+latest vagrant and virtualbox versions installed and try again.
+
 ### The ish
 
 If you don't have git installed, you can install it with
