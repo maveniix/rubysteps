@@ -52,3 +52,28 @@ learn how to launch your terminal and enter commands, like the ones above.
 Lessons will appear in the lessons/ directory. I will send out emails when new
 lessons are released. You can always `git pull` in order to fetch the latest
 updates.
+
+### Running the exercises
+
+You will find the exercises as a series of .rb files in each lesson directory.
+
+The vagrant virtual machine comes preinstalled with all the software you need in
+order to run the exercises. You can check that your vagrant box is up to date by
+running `vagrant box outdated`.
+
+Exercises use ruby 2.1.2.
+
+To run the lessons from within the vagrant box, simply ssh and cd to the
+/vagrant folder which you will see vagrant has linked to the rubysteps directory
+on your host machine.
+
+```
+vagrant up
+vagrant ssh
+```
+
+Now from within the vagrant machine:
+
+```
+cd /vagrant/lessons
+```

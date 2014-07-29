@@ -2,34 +2,10 @@
 
 ### Running the exercises
 
-You will find the exercises as a series of .rb files in the same directory as
-this README file. This lesson uses standard ruby calls so you can run them
-directly from your command line if you want.
+See the top-level README for how to run the exercises. This lesson's exercises
+are in the lessons/001\_ruby\_io directory.
 
-The vagrant virtual machine contains ruby 2.1.2 installed, making it easy for
-you to run the examples if you don't have ruby installed on your machine. You
-will typically run examples from within the vagrant box as we move to more
-complicated examples.
-
-To run the lessons from within the vagrant box, simply ssh and cd to the
-/vagrant folder which you will see vagrant has linked to the rubysteps directory
-on your host machine.
-
-```
-vagrant up
-vagrant ssh
-```
-
-Now that you're inside the vagrant box, run:
-
-```
-cd /vagrant
-ls lessons
-cd lessons/001_ruby_io
-ruby exercise_1a.rb
-```
-
---------
+# Input and Output in Ruby
 
 Input and output drive all the software in the world. That and adding
 numbers. It makes sense to start with input and output because that is how
