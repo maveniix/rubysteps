@@ -33,7 +33,13 @@ ssh`. Once inside, run `ruby hello.rb` to verify that you have a working
 environment. You should see the text "Hello RubySteps".
 
 If you get any errors when running vagrant up, make sure that you have the
-latest vagrant and virtualbox versions installed and try again.
+latest vagrant and virtualbox versions installed and try again. You may also
+need to restart your box, or even reinstall it fresh. Many common problems go
+away when you are running the latest version of everything.
+
+I will publish updates to the vagrant box as I change the development
+environment. You can determine whether your installation is up to date by
+running `vagrant box outdated`. Please ensure that your box is up to date.
 
 ### The ish
 
