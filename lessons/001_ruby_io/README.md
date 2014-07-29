@@ -3,7 +3,7 @@
 ### Running the exercises
 
 See the top-level README for how to run the exercises. This lesson's exercises
-are in the lessons/001\_ruby\_io directory.
+are in the `lessons/001_ruby_io` directory.
 
 # Input and Output in Ruby
 
