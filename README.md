@@ -28,11 +28,8 @@ and virtualbox, then clone the RubySteps source code and launch the box.
 
 1. [Download and install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 2. [Download and install Vagrant](https://docs.vagrantup.com/v2/installation/index.html)
-3. Clone the RubySteps repository and launch the vagrant box (the following
-three lines of code)
-
-To clone the repository and launch the box, run the following lines in your
-terminal:
+3. Clone the RubySteps repository and launch the vagrant box (run the following
+three lines of code in your terminal)
 
 ```
 git clone https://lab.patmaddox.com/pat/rubysteps.git
