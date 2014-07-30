@@ -50,6 +50,8 @@ I will publish updates to the vagrant box as I change the development
 environment. You can determine whether your installation is up to date by
 running `vagrant box outdated`. Please ensure that your box is up to date.
 
+*Windows users may find [this install guide](https://bitbucket.org/kotp/rlo_core_course_ruby_students/wiki/WindowsInstall) useful for setting up vagrant on Windows.*
+
 ### The ish
 
 If you don't have git installed, you can install it with
