@@ -5,6 +5,11 @@
 See the top-level README for how to run the exercises. This lesson's exercises
 are in the `lessons/002_rails_mvc` directory.
 
+If you run into problems, it may be because your vagrant box is out of date. You
+can run `vagrant box outdated` to check, and then `vagrant box update` to update
+the image. You then need to destroy your local box and restart it, with `vagrant
+destroy` and `vagrant up`.
+
 --------
 
 # The Way Rails Does Model-View-Controller
