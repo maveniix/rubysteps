@@ -4,6 +4,14 @@ Welcome to the RubySteps project. Here you will find all the lessons that you
 have access to. You can run each lesson on a vagrant virtual machine which contains all
 the software necessary to run the lesson.
 
+You can clone this repo! You should see a clone button in the GitLab
+interface. I want you to use this as an experimental playground. Feel free to
+mess with all of the exercises, add your own code, whatever. You can even use it
+just to practice git if you want. Please see the license about copying and
+distributing RubySteps content. Short version: you can make personal backups,
+and you can share on https://lab.patmaddox.com but you may not share any content
+outside of this site.
+
 ## For the hacker types
 
 RubySteps provides a pre-configured virtual machine so that you can run the
