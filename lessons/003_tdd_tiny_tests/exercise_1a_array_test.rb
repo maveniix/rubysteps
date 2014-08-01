@@ -1,6 +1,6 @@
-require 'test/unit'
+require 'minitest/autorun'
 
-class ArrayTest < Test::Unit::TestCase
+class ArrayTest < MiniTest::Test
   def test_new_array_has_zero_size
     assert(Array.new.size == 0)
   end

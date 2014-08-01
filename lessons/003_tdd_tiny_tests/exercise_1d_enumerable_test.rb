@@ -1,6 +1,6 @@
-require 'test/unit'
+require 'minitest/autorun'
 
-class EnumerableTest < Test::Unit::TestCase
+class EnumerableTest < Minitest::Test
   def test_all_is_true
     assert([1,3,5,7].all?(&:odd?))
   end

@@ -1,4 +1,4 @@
-require 'test/unit'
+require 'minitest/autorun'
 
 class RubySteps
   def fun!
@@ -14,7 +14,7 @@ class RubySteps
   end
 end
 
-class RubyStepsTest < Test::Unit::TestCase
+class RubyStepsTest < Minitest::Test
   def test_ruby_steps_is_fun
     assert(RubySteps.new.fun! == true)
   end

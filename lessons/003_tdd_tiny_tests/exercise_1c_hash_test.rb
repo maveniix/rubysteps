@@ -1,6 +1,6 @@
-require 'test/unit'
+require 'minitest/autorun'
 
-class HashTest < Test::Unit::TestCase
+class HashTest < Minitest::Test
   def test_new_hash_is_equivalent
     assert(Hash.new == {})
   end

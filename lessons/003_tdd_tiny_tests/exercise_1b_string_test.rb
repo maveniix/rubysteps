@@ -1,6 +1,6 @@
-require 'test/unit'
+require 'minitest/autorun'
 
-class StringTest < Test::Unit::TestCase
+class StringTest < Minitest::Test
   def test_new_string_equals_empty_string
     assert(String.new == "")
   end
