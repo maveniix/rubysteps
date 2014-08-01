@@ -36,9 +36,8 @@ practice writing tiny tests on code that you might already be familiar with. If
 you're not familiar with Ruby, you're in luck! I think this approach will be a
 massive boost to your learning.
 
-We're going to use the built-in Test::Unit framework, because it's always a good
-idea to be familiar with the default testing framework distributed with any
-programming language!
+We're going to use the MiniTest framework - it's the closest framework to the
+original Test::Unit framework and gives us a simple way to start writing tests.
 
 I've started writing tests for some of my favorite classes and methods. Why not
 visit the documentation for each class and write your own tests? Or take a look
@@ -83,13 +82,12 @@ custom code covered by tiny tests.
 
 ## Exercise 3 - A tiny testing framework
 
-So far we've used Ruby's built-in Test::Unit testing framework for our tiny
-tests. I've shown you the bare minimum you need to start writing tests, because
-it's important that you learn to do what you can with what you have
-available. There's a lot of other great stuff in Test::Unit, and a lot of other
-great test frameworks you can use (see the resource section at the end of this
-lesson), but it's important to remember that you can get a lot of mileage out of
-the most basic tools.
+So far we've used the Minitest testing framework for our tiny tests. I've shown
+you the bare minimum you need to start writing tests, because it's important
+that you learn to do what you can with what you have available. There's a lot of
+other great stuff in Minitest, and a lot of other great test frameworks you can
+use (see the resource section at the end of this lesson), but it's important to
+remember that you can get a lot of mileage out of the most basic tools.
 
 In this exercise, we'll build a simple testing framework to see what's going on
 under the hood. We're not going to build a comprehensive framework - again, for
@@ -148,7 +146,6 @@ start by taking a look at what's available and seeing what appeals to you.
 Here are some options to check out. If you know of more, please email me and I
 will add them here.
 
-- [Test::Unit](http://www.ruby-doc.org/stdlib/libdoc/test/unit/rdoc/Test/Unit.html)
 - [minitest](https://github.com/seattlerb/minitest)
 - [RSpec](http://www.rspec.info)
 - [Cucumber](http://cukes.info)
