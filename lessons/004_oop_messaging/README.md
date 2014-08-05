@@ -56,7 +56,7 @@ reference to the object that is currently handling the program's messages. If
 that doesn't make sense to you yet, don't worry, you'll see plenty of examples
 to make it clearer.
 
-Run `ruby exercise_1a_self.rb` and look inside to see an example of methods
+Run `ruby exercise_1a_self.rb` and look inside to see an example of messages
 being sent to self, along with an implicit self receiver.
 
 We can pass arguments to messages. These arguments get passed along to the
