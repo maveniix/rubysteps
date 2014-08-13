@@ -210,7 +210,7 @@ $stdout.reopen '/dev/tty'
 puts "I've recorded the entry, safe and sound"
 ```
 
-__Note: On Windows use 'CON:' instead of using '/dev/tty'__
+_Note: On Windows use 'CON:' instead of using '/dev/tty'_
 
 Run exercise 3c with:
 
