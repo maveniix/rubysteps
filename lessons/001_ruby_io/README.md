@@ -210,6 +210,8 @@ $stdout.reopen '/dev/tty'
 puts "I've recorded the entry, safe and sound"
 ```
 
+__Note: On Windows use 'CON:' instead of using '/dev/tty'__
+
 Run exercise 3c with:
 
 `ruby exercise_3c.rb`
